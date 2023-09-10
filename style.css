@@ -1,0 +1,17 @@
+body{
+    background: rgb(132, 137, 120);
+    margin: 0;
+}
+.tiles{
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap:16px;
+}
+.tile{
+    height: 100px;
+    background-color: black;
+    border: solid seashell;
+
+}
